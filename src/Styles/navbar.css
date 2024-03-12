@@ -1,0 +1,45 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+.nav-brand-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-brand {
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.nav-brand:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.nav-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.logo-name {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+.nav-link {
+    transition: .5s ease-in-out;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: yellow;
+    transform: scale(1.2);
+}

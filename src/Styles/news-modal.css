@@ -1,0 +1,37 @@
+.news-modal-content {
+    background-image: linear-gradient(10deg, #70AC62, #EE585A);
+}
+
+.news-modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-viewStory-btn {
+    background-color: #F6D377;
+    border: none;
+    cursor: pointer;
+    color: #213638;
+    transition: 1.2s ease-in-out;
+}
+
+.news-viewStory-btn:hover{
+    color: #F6D377;
+    background-color: #213638;
+    /* transform: scale(1.1); */
+    transform: rotate(360deg);
+}
+
+.news-close-btn {
+    background-color: #213638;
+    color: #F6D377;
+    border: none;
+    transition: 1s ease-in-out;
+}
+
+.news-close-btn:hover {
+    background-color: #F6D377;
+    color: #213638;
+    transform: scale(1.1);
+}

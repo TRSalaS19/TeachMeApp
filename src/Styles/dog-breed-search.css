@@ -1,0 +1,64 @@
+/* background video style */
+.dog-background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video stays behind other content */
+  }
+
+  /* page styles */
+
+.breed-search-container{
+    color: #fff;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.breed-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+
+.select-container{
+    width: 35%;
+}
+
+/* Modal for Chosen Dog Breed */
+
+.dog-modal-content {
+    background-image: linear-gradient(10deg, #0884a3, #b0eb65);
+    border: 2px solid #fff;
+  }
+
+.dog-modal-img {
+    width: 450px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+  }
+
+  .dog-modal p{
+    color: #000;
+  }
+
+  .modal-body span {
+    color: #fff;
+  }
+
+  .dog-btn-close {
+    background-color: #fff;
+  }

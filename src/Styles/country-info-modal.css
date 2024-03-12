@@ -1,0 +1,35 @@
+.country-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    /* background-color: #e5a13e; */
+    background-image: linear-gradient(10deg, #34A426,#D5603F);
+}
+
+.country-modal-content span {
+    color: #cfe7e5;
+}
+
+.country-modal h4{
+    color: #213638;
+}
+
+.country-modal-content ul {
+    list-style-type: none;
+}
+
+.coa-img {
+    width: 100px;
+}
+
+.country-close-btn {
+    width: 10%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+
+
